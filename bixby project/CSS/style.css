@@ -1,0 +1,52 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    background-color: aqua;
+    padding: 10px;
+}
+
+a:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+}
+.search-bar {
+    padding: 10px;
+    margin: 0;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+nav {
+    box-shadow: 2px 2px lightgrey;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+}
+
+.account-photo {
+    width: 200px;
+    height: 200px;
+    top: 50px;
+    left: 50px;
+    position: relative;
+    border-radius: 20px;
+    border: 2px solid lightcoral;
+}
+
+.status {
+    display: flex;
+    position: absolute;
+    top: 80px;
+    left: 350px;
+}
